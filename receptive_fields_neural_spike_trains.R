@@ -279,4 +279,4 @@ server <- function(input, output) {
   }, height = 300)
 }
 
-shinyApp(ui, server)
+shinyApp(ui, server, options = list(launch.browser = TRUE))
