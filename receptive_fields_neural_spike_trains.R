@@ -5,7 +5,6 @@ library(ggplot2)
 library(RColorBrewer)
 library(gridExtra)
 library(bslib)
-library(thematic)
 
 stimulus = function(rotation,
                     height,
